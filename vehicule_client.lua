@@ -23,6 +23,7 @@ Citizen.CreateThread(function()
 			
 			local vehiculePed = GetVehiclePedIsUsing(pedPlayer)
 
+
 				if GetVehicleWheelSpeed(vehiculePed,0) == 0.0 then -- SI le vehicule n'est pas en mouvement
 					if IsControlPressed(0, key_on) then --Si TOUCHE presser
 						if GetIsVehicleEngineRunning(vehiculePed) == false then -- Revoie le statut du vehicule On/off
