@@ -4,6 +4,7 @@ Installation normal du script
 Plug & Play (pas besoin d'appeler de fonction)
 
 
-bugg connus
+bugg connus : 
+
 Un simple Appuie sur Z fait démarer les Motos et Helicoptères
 
