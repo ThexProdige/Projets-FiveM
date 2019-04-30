@@ -12,8 +12,8 @@ end)
 
 Citizen.CreateThread(function()
 	--https://docs.fivem.net/game-references/controls/
-	local key_on = 300  -- fleche vers le haut                  71 INPUT_VEH_ACCELERATE
-	local key = 36 --INPUT_DUCK
+	local key_on = 173  -- fleche vers le bas                  71 INPUT_VEH_ACCELERATE
+	local key = 124 -- NUMPAD6
 
 
 	while true do
@@ -25,7 +25,7 @@ Citizen.CreateThread(function()
 
 
 				if GetVehicleWheelSpeed(vehiculePed,0) == 0.0 then -- SI le vehicule n'est pas en mouvement
-					if IsControlPressed(0, key_on) then --Si TOUCHE presser
+					if IsControlPressed(0, key_on)  and IsControlPressed(0, key) then --Si TOUCHE presser
 						if GetIsVehicleEngineRunning(vehiculePed) == false then -- Revoie le statut du vehicule On/off
 							demarerMoteur(vehiculePed,pedPlayer,true)
 						else
