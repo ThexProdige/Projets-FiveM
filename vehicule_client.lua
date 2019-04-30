@@ -1,19 +1,8 @@
 --Script par Malau#9999
-RegisterCommand('killme', function()
-	local pedPlayer = GetPlayerPed(-1)
-	local vehiculePed = GetVehiclePedIsUsing(pedPlayer)
-	SetPedIntoVehicle(pedPlayer,vehiculePed,0)
-
-
-	--ApplyDamageToPed(GetPlayerPed(-1),100000,false)
-	notify("~r~ Passager")
-end)
-
-
 Citizen.CreateThread(function()
 	--https://docs.fivem.net/game-references/controls/
 	local key_on = 173  -- fleche vers le bas                  71 INPUT_VEH_ACCELERATE
-	local key = 124 -- NUMPAD6
+	local key = 124 -- NUMPAD4
 
 
 	while true do
