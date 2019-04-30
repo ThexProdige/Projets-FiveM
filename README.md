@@ -11,7 +11,7 @@ Installation normal du script
 
 bugg connus : 
 
-Un simple Appuie Z fait démarer les Motos et Helicoptères
+ - Un simple Appuie Z fait démarer les Motos et Helicoptères
 
 
 Futur ajout:
