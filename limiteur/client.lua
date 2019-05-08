@@ -62,7 +62,13 @@ function siDansVehicule()
 	local pedPlayer = GetPlayerPed(-1) --Le Joueur lui même
 
 	if ( IsPedSittingInAnyVehicle( pedPlayer ) ) then --S'il est dans une voiture
-		return 1
+		local veh = GetVehiclePedIsUsing(pedPlayer)
+
+		if (GetPedInVehicleSeat(veh, -1) == pedPlayer) then-- S'il est le conducteur
+			return 1
+		else
+			return 0
+		end
 	else
 		return 0
 	end
