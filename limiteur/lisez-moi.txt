@@ -1,0 +1,12 @@
+#Limiteur de vitesse
+pré-requis :
+
+	- Besoin de pNotify pour fonctionner  https://forum.fivem.net/t/release-pnotify-in-game-js-notifications-using-noty/20659
+
+Installation: 
+
+ - Plug & Play
+
+Utilistation : 
+
+	- Activer/désactivé touche B 
