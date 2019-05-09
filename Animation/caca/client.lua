@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
 end)
 
 
-function animation(anim_dico,anim_nom,particle_dico,particle_name,px,py,pz,rx,ry,rz,deciBone,taille,lx,ly,lz)
+function animation(anim_dico,anim_nom,particle_dico,particle_name,px,py,pz,rx,ry,rz,deciBone,taille,lx,ly,lz) --(STRING,STRING,STRING,STRING,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,INT,FLOAT,BOOL,BOOL,BOOL)
 	SetCurrentPedWeapon(GetPlayerPed(-1), GetHashKey("WEAPON_UNARMED"), true) --c'est plus réel sans armes ^^
 
 	RequestAnimDict(anim_dico) --Animation
