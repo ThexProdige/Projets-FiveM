@@ -13,7 +13,6 @@ function setHurt()
 	anim_dico = "move_injured_generic"
 	RequestAnimSet(anim_dico)
 	SetPedMovementClipset(GetPlayerPed(-1), anim_dico, true)
-	SetEntityMaxSpeed(GetPlayerPed(-1),3.3)
 
 	
 end
