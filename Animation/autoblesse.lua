@@ -10,12 +10,17 @@ Citizen.CreateThread(function()
 end)
 
 function setHurt()
-	RequestAnimSet("move_m@injured")
-	SetPedMovementClipset(GetPlayerPed(-1), "move_m@injured", true)
+	anim_dico = "move_injured_generic"
+	RequestAnimSet(anim_dico)
+	SetPedMovementClipset(GetPlayerPed(-1), anim_dico, true)
+	SetEntityMaxSpeed(GetPlayerPed(-1),3.3)
+
+	
 end
 
 function setNotHurt()
 	ResetPedMovementClipset(GetPlayerPed(-1))
 	ResetPedWeaponMovementClipset(GetPlayerPed(-1))
 	ResetPedStrafeClipset(GetPlayerPed(-1))
+	SetEntityMaxSpeed(GetPlayerPed(-1),10.0)
 end
