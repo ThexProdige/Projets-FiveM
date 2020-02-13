@@ -5,7 +5,7 @@ Scripts FIVEM lua
 
 - **v0.2**
 	+ Ajout de la commande pnj (Ace Admin seulement)
-			Retirer Admin : `onlyAdmin = false` dans server.lua
+		Retirer Admin : `onlyAdmin = false` dans server.lua
 
 	+ Ajout BDD (Ajoutez le code mysql ci-dessous)
 
