@@ -1,5 +1,6 @@
 const mysql = require('mysql');
 
+// / / / / / / / A COMPLETER / / / / / / /
 var vipRole = [] 
 var serverName = ""
 
@@ -10,6 +11,12 @@ const con = mysql.createConnection({  // Information de Connection à la BDD
     user: "",
     password:"",
     database: ""
+    // /    /   /   /   /   /   /   /   /   /   /   /   /   /   /
+    // SQL A EXECUTER : ALTER TABLE `vip_table` ADD `premium` BOOLEAN NOT NULL AFTER `premium`, ADD `discord_id` TEXT NOT NULL AFTER `1`;
+    //
+    //
+    //  /   /   /   /   /   /   /   /   /   /   /   /   /   /   /   
+
 });
 
 con.connect(err => { //Connection
@@ -26,7 +33,7 @@ module.exports =  {
             this.func11(client)//Initialisation (OBLIGATOIRE)
             this.func2(client)//Mise à jour en temps Réel (OBLIGATOIRE)
             this.func3(client)// Admin command
-          //  this.func4()//creation fichier cfg pour permission FiveM
+            //function for FiveM Ace Permission is in func2 funciton
         }
 
     },
@@ -126,6 +133,7 @@ module.exports =  {
             else if (oldP && !newP){ // n'est plus premium
                 update(user, 0)
             }
+           // this.func4()
         });
 
 
