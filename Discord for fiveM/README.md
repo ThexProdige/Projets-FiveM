@@ -19,7 +19,7 @@
 ## Usage
 **Create DB table**
 ```sql
-CREATE TABLE `testfive_eldo`. ( `index` INT NOT NULL AUTO_INCREMENT , `discord_id` TEXT NOT NULL , `identifier` TEXT NOT NULL , `premium` BOOLEAN NOT NULL , PRIMARY KEY (`index`)) ENGINE = InnoDB;
+CREATE TABLE `vip_table`. ( `index` INT NOT NULL AUTO_INCREMENT , `discord_id` TEXT NOT NULL , `identifier` TEXT NOT NULL , `premium` BOOLEAN NOT NULL , PRIMARY KEY (`index`)) ENGINE = InnoDB;
 ```
 **Call function**
 ```js
