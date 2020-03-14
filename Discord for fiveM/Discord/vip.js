@@ -1,6 +1,5 @@
 const mysql = require('mysql');
 
-// / / / / / / / A COMPLETER / / / / / / /
 var vipRole = [] 
 var serverName = ""
 
@@ -11,12 +10,6 @@ const con = mysql.createConnection({  // Information de Connection à la BDD
     user: "",
     password:"",
     database: ""
-    // /    /   /   /   /   /   /   /   /   /   /   /   /   /   /
-    // SQL A EXECUTER : ALTER TABLE `vip_table` ADD `premium` BOOLEAN NOT NULL AFTER `premium`, ADD `discord_id` TEXT NOT NULL AFTER `1`;
-    //
-    //
-    //  /   /   /   /   /   /   /   /   /   /   /   /   /   /   /   
-
 });
 
 con.connect(err => { //Connection
