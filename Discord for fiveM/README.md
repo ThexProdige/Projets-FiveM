@@ -38,7 +38,8 @@ vip.func0(client,["Role1","Role2","etc.."],"ServerName")
 `$link discord_id steam_id:ID 64bit(hex)` [Know your steamID hex](http://www.vacbanned.com/)
 
 ## Author
-👤 Discord : **Maxime#0002** 
+👤 Discord : **Maxime#0002**
+
 👤 Github : [Thexprodige](https://github.com/ThexProdige)
 
 
