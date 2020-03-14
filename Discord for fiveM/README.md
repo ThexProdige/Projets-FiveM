@@ -23,7 +23,7 @@ CREATE TABLE `vip_table`. ( `index` INT NOT NULL AUTO_INCREMENT , `discord_id` T
 ```
 **Call function**
 ```js
-fun0(Object,Array[],string)
+func0(Object,Array[],string)
 ```
 
 ### Exemple
