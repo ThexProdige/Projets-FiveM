@@ -1,5 +1,7 @@
 # My all projet of fiveM RolePlay 
 FIVEM lua
+## DISPLAY RADAR for RP SERVER
+* Turn On minimap only if entrer a car
 
 ## Discord + FiveM = 💖
 
