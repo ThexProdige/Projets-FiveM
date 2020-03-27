@@ -7,7 +7,7 @@
 
 ## Feature
 * Save all roles members of your discord server (_its very fast: ~0.6s for 100 members_)
-* Automatly add/delete in DB and associate steamID with Discord member
+* ⚠️ [no longer available](https://forum.cfx.re/t/1090037)Automatly add/delete in DB and associate steamID with Discord member
 * Admin command for associate Discord Steam manually (need `KICK_MEMBER` permission)
 * Create and update cfg file for Ace FiveM permission (disable by default: uncomment function)
 
